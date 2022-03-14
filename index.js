@@ -85,4 +85,33 @@ function viewEmployee() {
     });
   
   }
+//View Employees by Department
+
+//array
+
+function viewEmployeeByDepartment() {
+    console.log("Viewing employees by department\n");
   
+    var query =
+      `SELECT d.id, d.name, r.salary AS budget
+    FROM employee e
+    LEFT JOIN role r
+      ON e.role_id = r.id
+    LEFT JOIN department d
+    ON d.id = r.department_id
+    GROUP BY d.id, d.name`
+  
+    connection.query(query, function (err, res) {
+      if (err) throw err;
+  
+      const departmentChoices = res.map(data => ({
+        value: data.id, name: data.name
+      }));
+  
+      console.table(res);
+      console.log("Department view succeed!\n");
+  
+      promptDepartment(departmentChoices);
+    });
+  
+  }
