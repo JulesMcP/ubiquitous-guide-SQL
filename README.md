@@ -3,7 +3,7 @@
 
 ## Description
 
-
+This app enables the user to create and modify a database to keep track of staff information. Employees are grouped by department and role.
 
 ## Table of Contents
 
@@ -13,18 +13,19 @@
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
-  <a name="installation"></a>
 
 ## Installation
 
-
-
-<a name="usage"></a>
+1. Clone the git repo.
+2. Run npm init in the terminal.
+3. Next, run npm i mysql2.
+4. Then, run npm i express.
+5. Now, run npm i inquirer.
+6. Finally, run npm i console.table.
 
 ## Usage
 
-
-<a name="license"></a>
+Very user friendly. You will be given prompts to choose from like: department, roles, and employees from the command-line. Easily add, delete and update personnel roles and departments.
 
 ## License
 
@@ -32,17 +33,10 @@ This project is covered under the following license:
 
 [MIT](https://www.mit.edu/~amini/LICENSE.md)
 
-<a name="contributing"></a>
-
 ## Contributing
 
-
-<a name="tests"></a>
-
-## Tests
-
-<a name="questions"></a>
+Contact me for inquiries about contributions.
 
 ## Questions
 
-If you have any questions, please contact me here: [Julieta's GitHub](https://github.com/JulesMcP) or <rogue427@yahoo.com> .
+If you have any questions, please contact me here: [Julieta's GitHub](https://github.com/JulesMcP) or <rogue427@yahoo.com>.
