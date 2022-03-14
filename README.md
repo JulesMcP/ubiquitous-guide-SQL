@@ -20,8 +20,7 @@ This app enables the user to create and modify a database to keep track of staff
 1. Clone the git repo.
 2. Run npm init in the terminal.
 3. Next, run npm i mysql2.
-4. Then, run npm i express.
-5. Now, run npm i inquirer.
+5. Then, run npm i inquirer.
 6. Finally, run npm i console.table.
 
 ## Usage

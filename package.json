@@ -19,7 +19,6 @@
   "homepage": "https://github.com/JulesMcP/ubiquitous-guide-SQL#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "dotenv": "^16.0.0",
     "inquirer": "^8.2.1",
     "mysql2": "^2.3.3",
     "sequelize": "^6.17.0"
