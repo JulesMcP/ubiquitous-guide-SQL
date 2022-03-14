@@ -1,5 +1,6 @@
 # ubiquitous-guide-SQL
-![license badge](https://img.shields.io/badge/license-MIT-brightgreen)
+
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Description
 
@@ -13,7 +14,7 @@ This app enables the user to create and modify a database to keep track of staff
 - [Contributing](#contributing)
 - [Questions](#questions)
 - [Screenshot](#screenshot)
-- [Walkthrough Video](#walkthroughvid)
+- [Walkthrough Video](#walkthrough)
 
 ## Installation
 
@@ -31,7 +32,7 @@ Very user friendly. You will be given prompts to choose from like: department, r
 
 This project is covered under the following license:
 
-[MIT](https://www.mit.edu/~amini/LICENSE.md)
+[ISC](https://www.isc.org/licenses/)
 
 ## Contributing
 
@@ -42,6 +43,9 @@ Contact me for inquiries about contributions.
 If you have any questions, please contact me here: [Julieta's GitHub](https://github.com/JulesMcP) or <rogue427@yahoo.com>.
 
 ## Screenshot
+
 ![image](https://user-images.githubusercontent.com/95149604/158256006-af6ddfbc-1cfa-43b1-b249-669ccab745b7.png)
+
 ## Walkthrough Video
-https://drive.google.com/file/d/11NAfOIEh2mtrfnf2r7mgR7H_vOnwiT94/view
+
+[click here to watch the video](https://drive.google.com/file/d/11NAfOIEh2mtrfnf2r7mgR7H_vOnwiT94/view)
