@@ -13,6 +13,8 @@ This app enables the user to create and modify a database to keep track of staff
 - [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
+- [Screenshot](#screenshot)
+- [Walkthrough Video](#walkthroughvid)
 
 ## Installation
 
@@ -40,3 +42,7 @@ Contact me for inquiries about contributions.
 ## Questions
 
 If you have any questions, please contact me here: [Julieta's GitHub](https://github.com/JulesMcP) or <rogue427@yahoo.com>.
+
+## Screenshot
+
+## Walkthrough Video
