@@ -11,7 +11,6 @@ This app enables the user to create and modify a database to keep track of staff
 - [Usage](#usage)
 - [License](#license)
 - [Contributing](#contributing)
-- [Tests](#tests)
 - [Questions](#questions)
 - [Screenshot](#screenshot)
 - [Walkthrough Video](#walkthroughvid)
