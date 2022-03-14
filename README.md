@@ -16,6 +16,7 @@ This app enables the user to create and modify a database to keep track of staff
 - [Screenshot](#screenshot)
 - [Walkthrough Video](#walkthrough)
 
+
 ## Installation
 
 1. Clone the git repo.
