@@ -1,41 +1,27 @@
 USE employeesDB;
 
 INSERT INTO department (name)
-VALUES ("Sales");
-INSERT INTO department (name)
-VALUES ("Engineering");
-INSERT INTO department (name)
-VALUES ("Finance");
-INSERT INTO department (name)
-VALUES ("Legal");
+VALUES 
+    ('Administration'),
+    ('Teacher'),
+    ('Office Staff')
+    ('Other Faculty');
 
 INSERT INTO role (title, salary, department_id)
-VALUES ("Sales Lead", 50000, 1);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Lead Engineer", 130000, 2);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Software Engineer", 110000, 2);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Accountant", 100000, 3);
-INSERT INTO role (title, salary, department_id)
-VALUES ("Legal Team Lead", 125000, 4);
+VALUES
+    ('Principal', 75000, 1),
+    ('Teacher', 45000, 2),
+    ('Office Staff', 30000, 3),
+    ('Other Faculty', 38000, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("James", "Howlett", 1, 3);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Chris", "Franco", 2, 1);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Maria", "Sanchez", 3, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Elliot", "Blade", 4, 3);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Christina", "Stuart", 5, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Shawn", "Mendez", 2, null);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Julia", "Roberts", 4, 7);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Jimi", "Hendrix", 2, 2);
-INSERT INTO employee (first_name, last_name, role_id, manager_id)
-VALUES ("Selena", "Kyle", 3, 4);
+    ('James', 'Howlett', 3, 3),
+    ('Charles', 'Xavier', 1, 1),
+    ('Jean', 'Grey', 3, 2),
+    ('Kitty', 'Pride', 4, null),
+    ('Ororo', 'Munro', 1, 2),
+    ('Hank', 'McCoy', 2, null),
+    ('Anna Marie', 'Raven', 4, null),
+    ('Scott', 'Summers', 2, 2),
+    ('Wanda', 'Maximoff', 3, null);
 
