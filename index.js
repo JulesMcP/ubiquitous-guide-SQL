@@ -197,7 +197,7 @@ function addEmployee() {
           message: "What is the employee's role?",
           choices: roleChoices
         },
-       
+
       ])
       .then(function (answer) {
         console.log(answer);
@@ -219,7 +219,7 @@ function addEmployee() {
   
             firstPrompt();
           });
-     
+
       });
     }
 
