@@ -6,7 +6,7 @@ const addDepartment = async () => {
         {
             type: "input",
             name: "department2",
-            message: "What is the name of the departmen",
+            message: "Enter the name of the department.",
             validate: (department2) => {
                 if (department2) {
                     return true;
