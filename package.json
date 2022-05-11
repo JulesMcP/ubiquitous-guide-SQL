@@ -1,7 +1,7 @@
 {
   "name": "ubiquitous-guide-sql",
   "version": "1.0.0",
-  "description": "",
+  "description": "[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,7 +19,8 @@
   "homepage": "https://github.com/JulesMcP/ubiquitous-guide-SQL#readme",
   "dependencies": {
     "console.table": "^0.10.0",
-    "inquirer": "^8.2.1",
+    "express": "^4.18.1",
+    "inquirer": "^8.2.4",
     "mysql2": "^2.3.3"
   }
 }
