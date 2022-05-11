@@ -33,6 +33,7 @@ const addRole = async (departments) => {
             type: "input",
             name: "whichDepartment",
             message: "What department does this role belong to?",
+            choices: departments
         },
     ]);
 };
