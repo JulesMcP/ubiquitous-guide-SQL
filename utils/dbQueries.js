@@ -83,7 +83,7 @@ const viewRole = async () => {
     await db
         .promise()
         .query(
-            `SELECT role.*, department.department_name
+            `SELECT role.*, department.name
             AS department_id
             FROM role
             LEFT JOIN department
