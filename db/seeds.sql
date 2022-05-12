@@ -13,14 +13,16 @@ VALUES
     ('Other Faculty', 38000, 4);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-    ('Kitty', 'Pride', 4, NULL),
-    ('Hank', 'McCoy', 2, NULL),
-    ('Anna Marie', 'Raven', 4, NULL),
-    ('Wanda', 'Maximoff', 3, NULL);
+VALUES
+('Kitty', 'Pride', 4, NULL),
+('Hank', 'McCoy', 2, NULL),
+('Anna Marie', 'Raven', 4, NULL),
+('Wanda', 'Maximoff', 3, NULL);
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
-    ('James', 'Howlett', 3, 5),
-    ('Charles', 'Xavier', 1, 1),
-    ('Jean', 'Grey', 3, 3),
-    ('Ororo', 'Munro', 1, 2),
-    ('Scott', 'Summers', 2, 4);
+VALUES
+('James', 'Howlett', 3, 5),
+('Charles', 'Xavier', 1, 1),
+('Jean', 'Grey', 3, 3),
+('Ororo', 'Munro', 1, 2),
+('Scott', 'Summers', 2, 4);
