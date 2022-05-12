@@ -5,7 +5,7 @@ const mysql = require("mysql2");
 const insertDepartment = async (newDepartment) => {
     await db
         .promise()
-        .query(`INSERT INTO department (department_name) VALUES (?)`, newDepartment)
+        .query(`INSERT INTO department (department.name) VALUES (?)`, newDepartment)
         .then(console.log(`New department, ${newDepartment}, added. \n`));
 };
 
@@ -16,7 +16,7 @@ const insertRole = async ({ role, salary, whichDepartment }) => {
             `INSERT INTO role (title, salary, department_id)
             SELECT '${role}', ${salary}, id
             FROM department
-            WHERE department_name = '${whichDepartment}'`
+            WHERE department.name = '${whichDepartment}'`
         )
         .then(console.log(`Added new role, ${role}. \n`));
 };
