@@ -45,8 +45,9 @@ Contact me for inquiries about contributions.
 If you have any questions, please contact me here: [Julieta's GitHub](https://github.com/JulesMcP) or <rogue427@yahoo.com>.
 
 ## Screenshot
+![image](https://user-images.githubusercontent.com/95149604/167971902-58d4e8ee-0bda-4378-b585-60d76d06d806.png)
 
-
+![image](https://user-images.githubusercontent.com/95149604/167972023-e4241d6a-5656-4abe-80b3-3dd7582ee8ec.png)
 
 ## Walkthrough Video
 
