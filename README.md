@@ -51,4 +51,4 @@ If you have any questions, please contact me here: [Julieta's GitHub](https://gi
 
 ## Walkthrough Video
 
-[click here to watch the video]()
+[click here to watch the video](https://drive.google.com/file/d/1TdmPfWP3SJigxCiWNzxyj_YSei8DmlfA/view)
